@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jiangqianxi/PythonProjects/quantum_compiler_optim/src/main.cpp
+iostream
+-
+queue
+-
+algorithm
+-
+string.h
+-
+set
+-
+climits
+-
+fstream
+-
+

@@ -1,0 +1,3 @@
+/Users/jiangqianxi/PythonProjects/quantum_compiler_optim/build/CMakeFiles/rebuild_cache.dir
+/Users/jiangqianxi/PythonProjects/quantum_compiler_optim/build/CMakeFiles/edit_cache.dir
+/Users/jiangqianxi/PythonProjects/quantum_compiler_optim/build/CMakeFiles/ibm_qx_mapping.dir
