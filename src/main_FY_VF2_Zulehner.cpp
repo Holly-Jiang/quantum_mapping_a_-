@@ -702,11 +702,11 @@ int main(int argc, char** argv) {
 	}
 
 	std::string outfile1;
-	outfile1.append("E:\\github\\quantum_compiler_optim\\compare\\total1");
+	outfile1.append("/root/graph/new/quantum_mapping_a_-/compare/total1");
 	//outfile1.append(argv[2]);
 	ofstream of1(outfile1,ios::app);
 	std::string outfile2;
-	outfile2.append("E:\\github\\quantum_compiler_optim\\compare\\total");
+	outfile2.append("/root/graph/new/quantum_mapping_a_-/compare/total");
 	//outfile1.append(argv[2]);
 	ofstream of2(outfile2,ios::app);
 	char* bName = argv[1];
@@ -743,7 +743,7 @@ int main(int argc, char** argv) {
 		locations[i] = -1;
 	}	
 	std::string filename;
-	filename.append("E:\\github\\Qubit-Mapping-Subgraph-Isomorphism-master\\testIni\\");
+	filename.append("/root/graph/new/Qubit-Mapping-Subgraph-Isomorphism-master/testIni/");
 	filename.append(argv[2]);
 	filename.append(".qasm.txt");
 	std::ifstream inifile(filename);
@@ -1005,7 +1005,7 @@ int main(int argc, char** argv) {
 
 	//Dump resulting circuit
 	std::string outfile;
-	outfile.append("E:\\github\\quantum_compiler_optim\\result\\");
+	outfile.append("/root/graph/new/quantum_mapping_a_-/result/");
 	outfile.append(argv[2]);
 	outfile.append("_FY_VF2_Zulehner_");
 	ofstream of(outfile);

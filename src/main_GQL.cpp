@@ -724,11 +724,11 @@ int main(int argc, char** argv) {
 	}
 
 	std::string outfile1;
-	outfile1.append("E:\\github\\quantum_compiler_optim\\compare\\total1");
+	outfile1.append("/root/graph/new/quantum_mapping_a_-/compare/total1");
 	//outfile1.append(argv[2]);
 	ofstream of1(outfile1,ios::app);
 	std::string outfile2;
-	outfile2.append("E:\\github\\quantum_compiler_optim\\compare\\total");
+	outfile2.append("/root/graph/new/quantum_mapping_a_-/compare/total");
 	//outfile1.append(argv[2]);
 	ofstream of2(outfile2,ios::app);
 	char* bName = argv[1];
@@ -764,7 +764,7 @@ int main(int argc, char** argv) {
 	for(int i = 0; i < nqubits; i++) {
 		locations[i] = -1;
 	}
-		std::ifstream inifile("E:\\github\\VF2\\data\\graphDB\\ini_map_GQL.my");
+		std::ifstream inifile("/root/graph/new/VF2_mapping_opt/data/graphDB/ini_map_GQL.my");
 		read_ini(inifile);
 		vector<vector<int > >::iterator it;
 	for (int k = 0; k < qlist.size(); k++)
@@ -1028,7 +1028,7 @@ int main(int argc, char** argv) {
 	}
 	//Dump resulting circuit
 	std::string outfile;
-	outfile.append("E:\\github\\quantum_compiler_optim\\result\\");
+	outfile.append("/root/graph/new/quantum_mapping_a_-/result/");
 	outfile.append(argv[2]);
 	outfile.append("_GQL_");
 	outfile.append(to_string(k));
