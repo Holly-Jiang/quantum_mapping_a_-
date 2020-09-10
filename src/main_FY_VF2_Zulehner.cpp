@@ -8,7 +8,6 @@
 #include <map>
 #include<time.h>
 #include<set>
-#include<windows.h>
 #include <sstream>
 
 #pragma comment(linker, "/STACK:10240000000,10240000000") 
@@ -687,7 +686,6 @@ int main(int argc, char** argv) {
 		cout << "Usage: ./imb_mapping <input_file><output_file>" << endl;
 		exit(0);
 	}
-	    SetConsoleOutputCP(65001);
 	build_graph_QX20();
 	// 构造两个点之间的最短距离
 	build_dist_table(graph);

@@ -737,7 +737,7 @@ int main(int argc, char** argv) {
 	}
 	char* bName = argv[1];
 	of2<<argv[2]<<endl;
-	of2<<"0: " <<ngates<<" "<<layers.size() <<" "<<0<< endl;
+	of2<<"initial: " <<ngates<<" "<<layers.size() <<" "<<0<< endl;
 	
 	of1 << "main_Circuit name: " << bName << " (requires " << nqubits << " qubits)" << endl;
 	of1 << endl << "Before mapping: " << endl;
