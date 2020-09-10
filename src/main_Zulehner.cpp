@@ -434,7 +434,7 @@ void read_qasm(std::ifstream& infile,string filename) {
 	// string outfile="E:\\github\\SubgraphComparing\\test\\graph_ini\\";
 	// outfile.append(filename);
 	// ofstream out(outfile);
-	ofstream of("E:\\github\\VF2\\data\\graphDB\\Ex2.my");
+	ofstream of("/root/graph/new/VF2_mapping_opt/data/graphDB/Ex2.my");
 	set<int>::iterator it1;
 	// out<<"t "<<list.size()<<" "<<results.size()<<endl;
 	of<<"t "<<list.size()<<" "<<results.size()<<endl;
@@ -723,14 +723,12 @@ int main(int argc, char** argv) {
 		}
 	}
 	std::string outfile1;
-	outfile1.append("..\\compare\\total1");
-	//outfile1.append(argv[2]);
+	outfile1.append("/root/graph/new/quantum_mapping_a_-/compare/total1");
 	std::ofstream of1(outfile1,std::ios::app);
 	
 	std::string outfile2;
-	outfile2.append("..\\compare\\total");
-	
-	//outfile1.append(argv[2]);
+	outfile2.append("/root/graph/new/quantum_mapping_a_-/compare/total");
+
 	std::ofstream of2(outfile2,std::ios::app);
 
 	if (!of1.is_open()||!of2.is_open())
@@ -995,7 +993,7 @@ try{
 	//Dump resulting circuit
 
 	std::string outfile;
-	outfile.append("E:\\github\\quantum_compiler_optim\\result1\\");
+	outfile.append("/root/graph/new/quantum_mapping_a_-/compare/result1/");
 	outfile.append(argv[2]);
 	ofstream of(outfile);
 	of << "OPENQASM 2.0;" << endl;
