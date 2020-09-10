@@ -741,7 +741,7 @@ int main(int argc, char** argv) {
 		locations[i] = -1;
 	}	
 	std::string filename;
-	filename.append("/root/graph/new/Qubit-Mapping-Subgraph-Isomorphism-master/testIni/");
+	filename.append("/root/graph/new/quantum_mapping_a_-/testIni/");
 	filename.append(argv[2]);
 	filename.append(".qasm.txt");
 	std::ifstream inifile(filename);
