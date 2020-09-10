@@ -704,7 +704,6 @@ node a_star_fixlayer(int layer, int* map, int* loc, int** dist) {
 }
 
 int main(int argc, char** argv) {
-
 	if(argc != 3) {
 		cout << "Usage: ./imb_mapping <input_file> <output_file>" << endl;
 		exit(0);
@@ -724,15 +723,20 @@ int main(int argc, char** argv) {
 		}
 	}
 	std::string outfile1;
-	outfile1.append("E:\\github\\quantum_compiler_optim\\compare\\total1");
+	outfile1.append("..\\compare\\total1");
 	//outfile1.append(argv[2]);
-	ofstream of1(outfile1,ios::app);
+	std::ofstream of1(outfile1,std::ios::app);
 	
 	std::string outfile2;
-	outfile2.append("E:\\github\\quantum_compiler_optim\\compare\\total");
+	outfile2.append("..\\compare\\total");
+	
 	//outfile1.append(argv[2]);
-	ofstream of2(outfile2,ios::app);
+	std::ofstream of2(outfile2,std::ios::app);
 
+	if (!of1.is_open()||!of2.is_open())
+	{
+		cout<<"total is open fail : "<<of1.is_open()<<" "<<of2.is_open()<<endl;
+	}
 	char* bName = argv[1];
 	of2<<argv[2]<<endl;
 	of2<<"0: " <<ngates<<" "<<layers.size() <<" "<<0<< endl;
@@ -968,7 +972,7 @@ try{
 		}
 	}
 	double time = double(clock() - begin_time) / CLOCKS_PER_SEC;
-	of2 <<"1: "<< all_gates.size()-total_swaps <<" "<<mapped_circuit.size()<<" "<<total_swaps << endl;
+	of2 <<"main_Zulehner: "<< all_gates.size()-total_swaps <<" "<<mapped_circuit.size()<<" "<<total_swaps << endl;
 	of1 << endl << "After mapping (no post mapping optimizations are conducted): " << endl;
 	of1 << "  elementary gates: " << all_gates.size()-total_swaps << endl;
 	of1 << "  depth: " << mapped_circuit.size() << endl;
