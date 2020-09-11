@@ -1,8 +1,13 @@
-g++ -std=c++11 E:/github/quantum_compiler_optim/src/main_Zulehner.cpp  -o main_Zulehner
-g++ -std=c++11 E:/github/quantum_compiler_optim/src/main1.cpp  -o main1
-g++ -std=c++11 E:/github/quantum_compiler_optim/src/main4.cpp  -o main4
-./main E:/github/quantum_compiler_optim/examples/4gt4-v0_72.qasm 4gt4-v0_72
-"C:\Program Files\Java\jdk-12.0.2\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3\lib\idea_rt.jar=53371:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3\bin" -Dfile.encoding=UTF-8 -classpath E:/github/VF2/target/classes wip.VF2.runner.App
-"C:\Program Files\Java\jdk-12.0.2\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3\lib\idea_rt.jar=53371:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3\bin" -Dfile.encoding=UTF-8 -classpath E:/github/VF2/target/classes wip.VF2.runner.App1
-./main111 E:/github/quantum_compiler_optim/examples/4gt4-v0_72.qasm 4gt4-v0_72 
-./main4 E:/github/quantum_compiler_optim/examples/4gt4-v0_72.qasm 4gt4-v0_72
+g++ -std=c++11 /root/graph/new/quantum_mapping_a_-/src/main_Zulehner.cpp  -o main_Zulehner
+g++ -std=c++11 /root/graph/new/quantum_mapping_a_-/src/main_FY_VF2_Zulehner.cpp  -o main_FY_VF2_Zulehner
+g++ -std=c++11 /root/graph/new/quantum_mapping_a_-/src/main_GQL.cpp  -o main_GQL
+g++ -std=c++11 /root/graph/new/quantum_mapping_a_-/src/main_OPT_VF2.cpp  -o main_OPT_VF2
+
+
+./main_Zulehner /root/graph/new/quantum_mapping_a_-/examples_result/3_17_13.qasm 3_17_13
+/root/graph/new/SubgraphComparing/build/matching/SubgraphMatching.out -d /root/graph/new/SubgraphComparing/test/sample_dataset/test_case_1.graph -q /root/graph/new/VF2_mapping_opt/data/graphDB/Ex2.my -filter GQL -order GQL -engine LFTJ -num MAX
+java -jar /root/graph/new/VF2_mapping_opt/out/artifacts/VF2_deal_data_linux_jar/VF2.jar
+java -jar /root/graph/new/VF2_mapping_opt/out/artifacts/VF2_linux_jar/VF2.jar
+./main_OPT_VF2 /root/graph/new/quantum_mapping_a_-/examples_result/3_17_13.qasm 3_17_13
+./main_FY_VF2_Zulehner /root/graph/new/quantum_mapping_a_-/examples_result/3_17_13.qasm 3_17_13
+./main_GQL /root/graph/new/quantum_mapping_a_-/examples_result/3_17_13.qasm 3_17_13

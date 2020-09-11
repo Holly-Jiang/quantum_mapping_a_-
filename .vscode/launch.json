@@ -9,7 +9,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
-            "args": ["E:\\github\\quantum_compiler_optim\\examples_result\\4gt4-v0_72.qasm","4gt4-v0_72"],
+            "args": ["E:\\github\\quantum_compiler_optim\\examples_result\\3_17_13.qasm","3_17_13"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
