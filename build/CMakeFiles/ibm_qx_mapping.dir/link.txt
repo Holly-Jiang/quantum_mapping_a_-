@@ -1,1 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/c++ -Wall -g3 -O3 -D_REENTRANT -DVERSION="$(VERSION)" -std=c++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/ibm_qx_mapping.dir/src/main.cpp.o -o ibm_qx_mapping 
