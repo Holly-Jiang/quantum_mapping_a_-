@@ -427,8 +427,6 @@ void read_ini(std::ifstream& inifile) {
 	qchild=vector<int> (positions,-1);
 	}
 	}
-		qlist.push_back(qchild);
-		lolist.push_back(lochild);
 	}
 void expand_node(const vector<int>& qubits, int qubit, edge *swaps, int nswaps,
 		int* used, node base_node, const vector<gate>& gates, int** dist, int next_layer,double begin_time) {
