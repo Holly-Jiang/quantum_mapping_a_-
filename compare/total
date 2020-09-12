@@ -638,3 +638,24 @@ initial: 37 22 0
 main_Zulehner: 93 60 8
 OPT_VF2: 79 52 6
 FY_VF2_Zulehner: 58 37 3
+alu-bdd_288
+initial: 84 48 0
+main_Zulehner: 182 108 14
+OPT_VF2: 147 82 9
+FY_VF2_Zulehner: 154 98 10
+GQL: 105 55 3
+cm82a_208
+initial: 650 340 0
+main_Zulehner: 1231 708 83
+cm82a_208
+initial: 650 340 0
+main_Zulehner: 1231 708 83
+FY_VF2_Zulehner: 1005 581 49
+FY_VF2_Zulehner: 1005 581 49
+3_17_13
+initial: 13 10 0
+main_Zulehner: 20 10 1
+OPT_VF2: 27 20 2
+FY_VF2_Zulehner: 20 10 1
+OPT_VF2: 27 20 2
+FY_VF2_Zulehner: 20 10 1
