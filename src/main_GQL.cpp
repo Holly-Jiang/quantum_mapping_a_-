@@ -934,7 +934,6 @@ int main(int argc, char** argv) {
 	of2.close();
 	delete[] locations;
 	delete[] qubits;
-
 	cout<<"continue exception: "<<k<<e.what()<<endl;
  	continue;
 }
