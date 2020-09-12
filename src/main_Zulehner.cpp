@@ -993,7 +993,7 @@ try{
 	//Dump resulting circuit
 
 	std::string outfile;
-	outfile.append("/root/graph/new/quantum_mapping_a_-/compare/result1/");
+	outfile.append("/root/graph/new/quantum_mapping_a_-/result1/");
 	outfile.append(argv[2]);
 	ofstream of(outfile);
 	of << "OPENQASM 2.0;" << endl;
