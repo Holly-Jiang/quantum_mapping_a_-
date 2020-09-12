@@ -909,10 +909,11 @@ int main(int argc, char** argv) {
 }catch( MyException e )
 {
 	cout<<"continue MyException: "<<e.what()<<endl;
+	return -1;
 }catch( exception e )
 {
 	cout<<"continue exception: "<<e.what()<<endl;
-
+	return -1;
 }
 //Fix the position of the single qubit gates
 	for(vector<gate>::reverse_iterator it = all_gates.rbegin(); it != all_gates.rend(); it++) {
