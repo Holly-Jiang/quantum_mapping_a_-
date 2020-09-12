@@ -665,3 +665,21 @@ FY_VF2_Zulehner: 1005 581 49
 clip_206
 initial: 33827 17879 0
 FY_VF2_Zulehner: 1005 581 49
+clip_206
+initial: 33827 17879 0
+3_17_13
+initial: 13 10 0
+main_Zulehner: 20 10 1
+OPT_VF2: 27 20 2
+FY_VF2_Zulehner: 20 10 1
+4_49_16
+initial: 6 5 0
+main_Zulehner: 13 10 1
+OPT_VF2: 13 10 1
+FY_VF2_Zulehner: 13 9 1
+GQL: 6 5 0
+4gt4-v0_72
+initial: 258 137 0
+main_Zulehner: 489 296 33
+OPT_VF2: 489 280 33
+FY_VF2_Zulehner: 475 270 31
