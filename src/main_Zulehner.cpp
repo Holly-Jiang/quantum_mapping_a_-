@@ -442,8 +442,8 @@ void read_qasm(std::ifstream& infile,string filename) {
 	}
 	ofstream of("/root/graph/new/VF2_mapping_opt/data/graphDB/Ex2.my");
 	set<int>::iterator it1;
-	of<<"t "<<max_node<<" "<<results.size()<<endl;
-	cout<<"t "<<max_node<<" "<<results.size()<<endl;
+	of<<"t "<<max_node+1<<" "<<results.size()<<endl;
+	cout<<"t "<<max_node+1<<" "<<results.size()<<endl;
 	for ( it1=list.begin(); it1 != list.end(); it1++)
 	{	int degree=0;
 		for (int i = 0; i < results.size(); i++)
