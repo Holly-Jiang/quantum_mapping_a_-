@@ -409,6 +409,7 @@ void read_qasm(std::ifstream& infile,string filename) {
 	std::set<int> list;
 	vector<vector<int> >results;
 	vector<vector<gate> >::iterator it;
+	int max_node=-1;//最大的节点id
 	cout<<"---------*************-----------"<<endl;
 	std::map<string,int> layer_map;
 	for (int i = 0; i < layers.size(); i++)
@@ -420,6 +421,14 @@ void read_qasm(std::ifstream& infile,string filename) {
 				&&!layer_map.count(to_string(layers[i][j].target)+"-"+to_string(layers[i][j].control))){
 			list.insert(layers[i][j].control);
 			list.insert(layers[i][j].target);
+			if (max_node<layers[i][j].control)
+			{
+				max_node=layers[i][j].control;
+			}
+			if (max_node<layers[i][j].target)
+			{
+				max_node=layers[i][j].target;
+			}
 			vector<int> temp;
 			temp.push_back(layers[i][j].control);
 			temp.push_back(layers[i][j].target);
@@ -431,14 +440,10 @@ void read_qasm(std::ifstream& infile,string filename) {
 			
 		}
 	}
-	// string outfile="E:\\github\\SubgraphComparing\\test\\graph_ini\\";
-	// outfile.append(filename);
-	// ofstream out(outfile);
 	ofstream of("/root/graph/new/VF2_mapping_opt/data/graphDB/Ex2.my");
 	set<int>::iterator it1;
-	// out<<"t "<<list.size()<<" "<<results.size()<<endl;
-	of<<"t "<<list.size()<<" "<<results.size()<<endl;
-	cout<<"t "<<list.size()<<" "<<results.size()<<endl;
+	of<<"t "<<max_node<<" "<<results.size()<<endl;
+	cout<<"t "<<max_node<<" "<<results.size()<<endl;
 	for ( it1=list.begin(); it1 != list.end(); it1++)
 	{	int degree=0;
 		for (int i = 0; i < results.size(); i++)

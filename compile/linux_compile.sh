@@ -91,7 +91,7 @@ java -jar /root/graph/new/VF2_mapping_opt/out/artifacts/VF2_deal_data_linux_jar/
 java -jar /root/graph/new/VF2_mapping_opt/out/artifacts/VF2_linux_jar/VF2.jar
 ./main_OPT_VF2 /root/graph/new/quantum_mapping_a_-/examples_result/4gt5_77.qasm 4gt5_77 
 ./main_FY_VF2_Zulehner /root/graph/new/quantum_mapping_a_-/examples_result/4gt5_77.qasm 4gt5_77 
-./main_FY_VF2_Zulehner /root/graph/new/quantum_mapping_a_-/examples_result/4gt5_77.qasm 4gt5_77 
+./main_GQL /root/graph/new/quantum_mapping_a_-/examples_result/4gt5_77.qasm 4gt5_77 
 
 ./main_Zulehner /root/graph/new/quantum_mapping_a_-/examples_result/4gt10-v1_81.qasm 4gt10-v1_81
 /root/graph/new/SubgraphComparing/build/matching/SubgraphMatching.out -d /root/graph/new/SubgraphComparing/test/sample_dataset/test_case_1.graph -q /root/graph/new/VF2_mapping_opt/data/graphDB/Ex2.my -filter GQL -order GQL -engine LFTJ -num MAX
