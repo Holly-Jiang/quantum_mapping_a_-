@@ -1,0 +1,363 @@
+3_17_13
+initial: 13 10 0
+main_Zulehner: 20 10 1
+4_49_16
+initial: 6 5 0
+main_Zulehner: 13 10 1
+4gt4-v0_72
+initial: 258 137 0
+main_Zulehner: 489 296 33
+4gt4-v0_73
+initial: 395 227 0
+main_Zulehner: 857 540 66
+4gt4-v0_78
+initial: 235 137 0
+main_Zulehner: 564 346 47
+4gt4-v0_79
+initial: 231 132 0
+main_Zulehner: 553 342 46
+4gt4-v0_80
+initial: 179 101 0
+main_Zulehner: 312 188 19
+4gt4-v1_74
+initial: 273 154 0
+main_Zulehner: 511 313 34
+4gt5_75
+initial: 83 47 0
+main_Zulehner: 195 121 16
+4gt5_76
+initial: 91 56 0
+main_Zulehner: 266 169 25
+4gt5_77
+initial: 131 74 0
+main_Zulehner: 278 173 21
+4gt10-v1_81
+initial: 148 84 0
+main_Zulehner: 344 218 28
+4gt11_82
+initial: 27 20 0
+main_Zulehner: 34 25 1
+4gt11_83
+initial: 23 16 0
+main_Zulehner: 23 16 0
+4gt11_84
+initial: 18 11 0
+main_Zulehner: 39 25 3
+4gt12-v0_86
+initial: 251 135 0
+main_Zulehner: 608 354 51
+4gt12-v0_87
+initial: 247 131 0
+main_Zulehner: 597 345 50
+4gt12-v0_88
+initial: 194 108 0
+main_Zulehner: 411 261 31
+4gt13_90
+initial: 107 65 0
+main_Zulehner: 198 127 13
+4gt13_91
+initial: 103 61 0
+main_Zulehner: 173 108 10
+4gt13_92
+initial: 66 38 0
+main_Zulehner: 164 103 14
+4gt13-v1_93
+initial: 68 39 0
+main_Zulehner: 159 103 13
+4mod5-bdd_287
+initial: 70 41 0
+main_Zulehner: 126 71 8
+4mod5-v0_18
+initial: 69 40 0
+main_Zulehner: 97 55 4
+4mod5-v0_19
+initial: 35 21 0
+main_Zulehner: 35 21 0
+4mod5-v0_20
+initial: 20 12 0
+main_Zulehner: 48 32 4
+4mod5-v1_22
+initial: 21 12 0
+main_Zulehner: 56 37 5
+4mod5-v1_23
+initial: 69 41 0
+main_Zulehner: 97 56 4
+4mod5-v1_24
+initial: 36 21 0
+main_Zulehner: 57 36 3
+4mod7-v0_94
+initial: 162 92 0
+main_Zulehner: 400 262 34
+4mod7-v1_96
+initial: 164 94 0
+main_Zulehner: 353 223 27
+9symml_195
+initial: 34881 19235 0
+0410184_169
+initial: 211 104 0
+main_Zulehner: 540 294 47
+adr4_197
+initial: 3439 1839 0
+main_Zulehner: 7457 4175 574
+aj-e11_165
+initial: 151 86 0
+main_Zulehner: 382 250 33
+alu-bdd_288
+initial: 84 48 0
+main_Zulehner: 182 108 14
+alu-v0_26
+initial: 84 49 0
+main_Zulehner: 175 108 13
+alu-v0_27
+initial: 36 21 0
+main_Zulehner: 113 63 11
+alu-v1_28
+initial: 37 22 0
+main_Zulehner: 100 52 9
+alu-v1_29
+initial: 37 22 0
+main_Zulehner: 114 64 11
+alu-v2_30
+initial: 504 285 0
+main_Zulehner: 1204 726 100
+alu-v2_31
+initial: 451 255 0
+main_Zulehner: 990 619 77
+alu-v2_32
+initial: 163 92 0
+main_Zulehner: 352 215 27
+alu-v2_33
+initial: 37 22 0
+main_Zulehner: 93 59 8
+alu-v3_34
+initial: 52 30 0
+main_Zulehner: 101 62 7
+alu-v3_35
+initial: 37 22 0
+main_Zulehner: 93 60 8
+alu-v4_36
+initial: 115 66 0
+main_Zulehner: 269 170 22
+alu-v4_37
+initial: 37 22 0
+main_Zulehner: 93 60 8
+C17_204
+initial: 467 253 0
+main_Zulehner: 1104 658 91
+clip_206
+initial: 33827 17879 0
+cm82a_208
+initial: 650 340 0
+main_Zulehner: 1231 708 83
+cm85a_209
+initial: 11414 6374 0
+main_Zulehner: 22488 12667 1582
+cnt3-5_179
+initial: 175 61 0
+main_Zulehner: 525 194 50
+co14_215
+initial: 17936 8570 0
+main_Zulehner: 39363 19103 3061
+con1_216
+initial: 954 508 0
+main_Zulehner: 2046 1175 156
+cycle10_2_110
+initial: 6050 3386 0
+main_Zulehner: 12588 7105 934
+decod24-bdd_294
+initial: 73 40 0
+main_Zulehner: 136 85 9
+decod24-enable_126
+initial: 338 190 0
+main_Zulehner: 793 503 65
+decod24-v0_38
+initial: 51 30 0
+main_Zulehner: 93 60 6
+decod24-v1_41
+initial: 85 50 0
+main_Zulehner: 176 115 13
+decod24-v2_43
+initial: 52 30 0
+main_Zulehner: 115 75 9
+decod24-v3_45
+initial: 150 84 0
+main_Zulehner: 374 229 32
+dist_223
+initial: 38046 19694 0
+ex-1_166
+initial: 19 12 0
+main_Zulehner: 40 27 3
+ex1_226
+initial: 7 5 0
+main_Zulehner: 14 10 1
+ex2_227
+initial: 631 355 0
+main_Zulehner: 1366 822 105
+ex3_229
+initial: 403 226 0
+main_Zulehner: 634 363 33
+f2_232
+initial: 1206 668 0
+main_Zulehner: 2676 1587 210
+graycode6_47
+initial: 5 5 0
+main_Zulehner: 5 5 0
+ham3_102
+initial: 20 13 0
+main_Zulehner: 41 28 3
+ham7_104
+initial: 320 185 0
+main_Zulehner: 796 491 68
+hwb4_49
+initial: 233 134 0
+main_Zulehner: 534 340 43
+hwb5_53
+initial: 1336 758 0
+main_Zulehner: 2449 1464 159
+hwb6_56
+initial: 6723 3736 0
+main_Zulehner: 12554 7473 833
+hwb7_59
+initial: 24379 13437 0
+main_Zulehner: 47976 27840 3371
+hwb8_113
+initial: 69380 38717 0
+ising_model_10
+initial: 480 97 0
+main_Zulehner: 529 106 7
+ising_model_13
+initial: 633 92 0
+main_Zulehner: 850 179 31
+ising_model_16
+initial: 786 90 0
+life_238
+initial: 22445 12511 0
+main_Zulehner: 45328 25805 3269
+majority_239
+initial: 612 344 0
+main_Zulehner: 1319 789 101
+max46_240
+initial: 27126 14257 0
+main_Zulehner: 57037 31507 4273
+miller_11
+initial: 50 29 0
+main_Zulehner: 113 74 9
+mini-alu_167
+initial: 288 162 0
+main_Zulehner: 631 383 49
+misex1_241
+initial: 4813 2676 0
+main_Zulehner: 9706 5667 699
+mlp4_245
+initial: 18852 10328 0
+main_Zulehner: 38872 21577 2860
+mod5adder_127
+initial: 555 302 0
+main_Zulehner: 1241 736 98
+mod5d1_63
+initial: 22 13 0
+main_Zulehner: 29 17 1
+mod5d2_64
+initial: 53 32 0
+main_Zulehner: 123 73 10
+mod5mils_65
+initial: 35 21 0
+main_Zulehner: 77 51 6
+mod8-10_177
+initial: 440 251 0
+main_Zulehner: 853 528 59
+mod8-10_178
+initial: 342 193 0
+main_Zulehner: 433 242 13
+mod10_171
+initial: 244 139 0
+main_Zulehner: 517 334 39
+mod10_176
+initial: 178 101 0
+main_Zulehner: 416 262 34
+one-two-three-v0_97
+initial: 290 163 0
+main_Zulehner: 710 430 60
+one-two-three-v0_98
+initial: 146 82 0
+main_Zulehner: 279 158 19
+one-two-three-v1_99
+initial: 132 76 0
+main_Zulehner: 314 195 26
+one-two-three-v2_100
+initial: 69 40 0
+main_Zulehner: 132 82 9
+one-two-three-v3_101
+initial: 70 40 0
+main_Zulehner: 140 85 10
+qft_10
+initial: 200 63 0
+main_Zulehner: 354 142 22
+qft_16
+initial: 512 105 0
+radd_250
+initial: 3213 1781 0
+main_Zulehner: 6559 3727 478
+rd32_270
+initial: 84 47 0
+main_Zulehner: 126 76 6
+rd32-v0_66
+initial: 34 20 0
+main_Zulehner: 76 50 6
+rd32-v1_68
+initial: 36 21 0
+main_Zulehner: 78 51 6
+rd53_130
+initial: 1043 569 0
+main_Zulehner: 2450 1497 201
+rd53_131
+initial: 469 261 0
+main_Zulehner: 1113 666 92
+rd53_133
+initial: 580 327 0
+main_Zulehner: 1378 845 114
+rd53_135
+initial: 296 159 0
+main_Zulehner: 681 385 55
+rd53_138
+initial: 132 56 0
+main_Zulehner: 258 119 18
+rd53_251
+initial: 1291 712 0
+main_Zulehner: 2355 1341 152
+rd73_252
+initial: 5321 2867 0
+main_Zulehner: 10361 5873 720
+rd84_142
+initial: 343 110 0
+main_Zulehner: 665 243 46
+rd84_253
+initial: 13658 7261 0
+main_Zulehner: 26496 14652 1834
+root_255
+initial: 17159 8839 0
+sao2_257
+initial: 38577 19563 0
+sf_274
+initial: 781 436 0
+main_Zulehner: 1579 925 114
+sf_276
+initial: 778 435 0
+main_Zulehner: 1611 1011 119
+sqn_258
+initial: 10223 5458 0
+square_root_7
+initial: 7630 3847 0
+sym6_145
+initial: 3888 2187 0
+main_Zulehner: 8102 4944 602
+sym9_148
+initial: 21504 12087 0
+main_Zulehner: 43365 25419 3123
+sym9_193
+initial: 34881 19235 0
+sym10_262
+initial: 64283 35572 0
+sys6-v0_111
+initial: 215 75 0
+main_Zulehner: 404 158 27
